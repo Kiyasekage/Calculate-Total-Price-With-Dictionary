@@ -3,3 +3,9 @@ price_quantity = [{"Name" : "Computer", "Price" : 500, "quantity" : 10},{"Name" 
 print("Welcome to Hehey digital store!")
 print("Here is our product's list, feel free to choose and add to your casket!")
 print(json.dumps(price_quantity,indent=4))
+status = "YES"
+while status == "YES":
+    ans = input("")
+    cond = input("Do you want to continue add items?").upper()
+    if cond == "YES":
+        break
